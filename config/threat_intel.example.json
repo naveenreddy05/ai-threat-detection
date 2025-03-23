@@ -1,0 +1,25 @@
+# config/threat_intel.example.json
+{
+  "enabled": false,
+  "cache_duration": 86400,
+  "timeout": 10,
+  "sources": {
+    "abuseipdb": {
+      "enabled": false,
+      "api_key": "your-abuseipdb-api-key"
+    },
+    "virustotal": {
+      "enabled": false,
+      "api_key": "your-virustotal-api-key"
+    },
+    "ipqualityscore": {
+      "enabled": false,
+      "api_key": "your-ipqualityscore-api-key"
+    },
+    "local_blocklist": {
+      "enabled": true,
+      "file_path": "data/blocklists/ip_blocklist.txt",
+      "update_interval": 86400
+    }
+  }
+}

@@ -1,0 +1,22 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model files - large binary files
+data/models/*.joblib
+
+# Processed data - can be regenerated
+data/processed/
+
+# Environment specific
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
